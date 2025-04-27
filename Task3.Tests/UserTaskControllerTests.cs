@@ -58,7 +58,7 @@ namespace Task3.Tests
         }
 
         [Test]
-        public void CreateUserTask_NonExistentUser_ReturnsNullAndTheTaskAlreadyExistsMessage()
+        public void CreateUserTask_NonExistentUser_TaskAlreadyExistsMessage()
         {
             var model = new ResponseModelStub();
             string description = "task3";
