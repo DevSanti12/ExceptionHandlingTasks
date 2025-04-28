@@ -31,13 +31,5 @@ namespace Task3
                 return false;
             }
         }
-
-        //private string GetMessageForModel(int userId, string description)
-        //{
-        //    var task = new UserTask(description);
-        //    int result = _taskService.AddTaskForUser(userId, task);
-
-        //    return null;
-        //}
     }
 }
